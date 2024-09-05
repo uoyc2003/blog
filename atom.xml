@@ -6,7 +6,7 @@
   <link href="https://blog.zeng.cyou/atom.xml" rel="self"/>
   
   <link href="https://blog.zeng.cyou/"/>
-  <updated>2024-09-01T15:10:25.464Z</updated>
+  <updated>2024-09-04T12:40:18.036Z</updated>
   <id>https://blog.zeng.cyou/</id>
   
   <author>
@@ -17,19 +17,45 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Docker快速搭建开发环境</title>
+    <link href="https://blog.zeng.cyou/posts/28831.html"/>
+    <id>https://blog.zeng.cyou/posts/28831.html</id>
+    <published>2024-09-02T14:11:39.000Z</published>
+    <updated>2024-09-04T12:40:18.036Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;MySQL&quot;&gt;&lt;a href=&quot;#MySQL&quot; class=&quot;headerlink&quot; title=&quot;MySQL&quot;&gt;&lt;/a&gt;MySQL&lt;/h2&gt;&lt;h3 id=&quot;创建挂载的目录&quot;&gt;&lt;a href=&quot;#创建挂载的目录&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="编程笔记" scheme="https://blog.zeng.cyou/categories/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Docker" scheme="https://blog.zeng.cyou/tags/Docker/"/>
+    
+    <category term="开发环境" scheme="https://blog.zeng.cyou/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Docker快速入门</title>
     <link href="https://blog.zeng.cyou/posts/2763.html"/>
     <id>https://blog.zeng.cyou/posts/2763.html</id>
     <published>2024-09-01T10:29:11.000Z</published>
-    <updated>2024-09-01T15:10:25.464Z</updated>
+    <updated>2024-09-05T12:13:33.830Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Docker是一个开源平台，用于将应用程序及其依赖打包成轻量级的容器，这些容器可以在任何支持Docker的环境中一致运行。它简化了应用程序的开发、部署和运维过程。&lt;/p&gt;
-&lt;h2 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;环境搭建&quot;&gt;&lt;a href=&quot;#环境搭建&quot; class=&quot;headerlink&quot; title=&quot;环境搭建&quot;&gt;&lt;/a&gt;环境搭建&lt;/h2&gt;&lt;h3 id=&quot;Docker&quot;&gt;&lt;a href=&quot;#Docker&quot; class=&quot;headerlink&quot;</summary>
         
       
     

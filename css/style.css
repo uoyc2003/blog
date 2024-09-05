@@ -5596,7 +5596,7 @@ p.p.subtitle:first-child {
 }
 span.p.logo,
 p.p.logo {
-  font-family: LXGWWenKai, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
+  font-family: "LXGW WenKai", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Helvetica, monospace;
 }
 span.p.code,
 p.p.code {
@@ -7690,11 +7690,6 @@ article#post h3 {
 article#post > h3 {
   font-weight: 500;
   position: initial;
-}
-@font-face {
-  font-family: LXGWWenKai;
-  font-display: swap;
-  src: url("../font/lxgw-wenkai-screen-v1.245-subset-standard.woff2") format('woff2');
 }
 img.error {
   opacity: unset !important;
