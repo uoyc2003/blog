@@ -110,7 +110,7 @@ deploy:
   branch: main
 
 # Favicon
-favicon: https://pic.zeng.cyou/avatar/202409012308357.jpg
+favicon: https://pic.zeng.cyou/avatar/202409051936587.jpg
 
 # RSS
 feed:
@@ -126,3 +126,7 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+import:
+  head_end:
+    - <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.css" />

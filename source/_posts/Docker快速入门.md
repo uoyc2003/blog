@@ -5,12 +5,10 @@ tags:
   - 快速入门
 categories:
   - 编程笔记
-headimg: https://pic.zeng.cyou/wide/202409012258092.webp
+headimg: https://pic.zeng.cyou/wide/202409042025520.webp
 abbrlink: 2763
 date: 2024-09-01 18:29:11
 ---
-
-Docker是一个开源平台，用于将应用程序及其依赖打包成轻量级的容器，这些容器可以在任何支持Docker的环境中一致运行。它简化了应用程序的开发、部署和运维过程。
 
 ## 环境搭建
 

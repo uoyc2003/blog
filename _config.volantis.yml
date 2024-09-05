@@ -358,14 +358,14 @@ article:
 comments:
   title: <i class='fa-solid fa-comments'></i> 评论
   subtitle:
-  service: giscus
+  service: artalk
   # 可选评论系统 #
 
   # artalk
   # https://artalk.js.org/
   # https://github.com/ArtalkJS/Artalk
   artalk:
-    server: https://yours-artalk-domain # 修改为自建的后端服务地址
+    server: https://artalk.zeng.cyou # 修改为自建的后端服务地址
     path: # 全局评论地址
     placeholder: # 评论占位
     visitor: true # 是否显示文章阅读数
@@ -1392,13 +1392,13 @@ custom_css:
     footnote: .78125rem
   fontfamily:
     logofont:
-      fontfamily: 'LXGWWenKai, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      fontfamily: '"LXGW WenKai", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: "Varela Round"
       url: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf
       weight: normal
       style: normal
     bodyfont:
-      fontfamily: 'LXGWWenKai, UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      fontfamily: '"LXGW WenKai", UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: "UbuntuMono"
       url: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-fonts/UbuntuMono/UbuntuMono-Regular.ttf
       weight: normal
