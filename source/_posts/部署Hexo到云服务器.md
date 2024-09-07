@@ -23,9 +23,9 @@ date: 2024-09-07 11:47:57
 
 解析的教程这里也不会展开说明，不过可以给一个大概的流程：
 
-1. 注册Cloudflare账号，然后托管要绑定的域名，选择免费的计划
-2. 来到NameSilo的域名管理界面，点击进入NameServer Manager（Options栏下最右边的图标）
-3. 删除默认的两个NameServer，把Cloudflare分配的NameServer复制上去，之后点击提交按钮
+1. 注册`Cloudflare`账号，然后托管要绑定的域名，选择免费的计划
+2. 来到`NameSilo`的域名管理界面，点击进入`NameServer Manager`（Options栏下最右边的图标）
+3. 删除默认的两个`NameServer`，把`Cloudflare`分配的`NameServer`复制上去，之后点击提交按钮
 
 ## 购买云服务器
 
@@ -47,7 +47,7 @@ date: 2024-09-07 11:47:57
 
 我们需要把购买的域名和服务器进行一个绑定，这样之后就可以通过域名来直接访问部署的网站。
 
-登录`Cloudflare`（其他的平台操作步骤都一样），然后点击之前托管好的域名，找到`DNS`，添加两条记录。
+登录`Cloudflare`（其它平台操作步骤同理），然后点击之前托管好的域名，找到`DNS`，添加两条记录。
 
 ![202409071440361](https://pic.zeng.cyou/post/58145/202409071440361.webp)
 
@@ -142,7 +142,7 @@ docker-compose up -d
 
 把申请到的`SSL证书`放到`/data/nginx/conf/cert`这个目录下面。
 
-再去把服务器的`80`和`443`端口打开（一般都是在防火墙规则里面）。
+再去把服务器的`80`和`443`端口打开。
 
 ![202409071440363](https://pic.zeng.cyou/post/58145/202409071440363.webp)
 
@@ -182,6 +182,9 @@ http {
     server {
         listen 443 ssl;
 
+        ##定义404页面路径
+        error_page 404 /404.html;
+
         #填写证书绑定的域名
         server_name zeng.cyou;
 
@@ -201,8 +204,14 @@ http {
         ssl_prefer_server_ciphers on;
 
         location / {
+            try_files $uri $uri/ =404;
             root /usr/share/nginx/html/blog/;
             index index.html index.htm;
+        }
+
+        location = /404.html {
+            root /usr/share/nginx/html/blog/;
+            internal;
         }
     }
 
