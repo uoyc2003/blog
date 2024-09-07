@@ -9,10 +9,7 @@ description: "与你的日常，就是奇迹"
 keywords: "技术分享,生活记录,Blog"
 author: "Cyou"
 language:
-  - en
   - zh-CN
-  - zh-HK
-  - zh-TW
 timezone: "Asia/Shanghai"
 
 # URL
@@ -126,6 +123,15 @@ feed:
   icon: icon.png
   autodiscovery: true
   template:
+
+# SiteMap
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  rel: false
+  tags: true
+  categories: true
 
 import:
   head_end:

@@ -308,7 +308,6 @@ docker run -d --name nginx nginx
 docker cp nginx:/etc/nginx/nginx.conf /data/nginx/conf/nginx.conf
 docker cp nginx:/etc/nginx/conf.d /data/nginx/conf/conf.d
 docker cp nginx:/usr/share/nginx/html /data/nginx
-docker cp nginx:/var/log/nginx/. /data/nginx/logs
 ```
 
 ### 删除容器
