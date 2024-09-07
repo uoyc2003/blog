@@ -6,7 +6,7 @@
   <link href="https://blog.zeng.cyou/atom.xml" rel="self"/>
   
   <link href="https://blog.zeng.cyou/"/>
-  <updated>2024-09-04T12:40:18.036Z</updated>
+  <updated>2024-09-07T10:33:54.989Z</updated>
   <id>https://blog.zeng.cyou/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>部署Hexo到云服务器</title>
+    <link href="https://blog.zeng.cyou/posts/58145/"/>
+    <id>https://blog.zeng.cyou/posts/58145/</id>
+    <published>2024-09-07T03:47:57.000Z</published>
+    <updated>2024-09-07T10:33:54.989Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;购买域名&quot;&gt;&lt;a href=&quot;#购买域名&quot; class=&quot;headerlink&quot; title=&quot;购买域名&quot;&gt;&lt;/a&gt;购买域名&lt;/h2&gt;&lt;p&gt;这里的推荐两个购买平台：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="网站搭建" scheme="https://blog.zeng.cyou/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.zeng.cyou/tags/Hexo/"/>
+    
+    <category term="云服务器" scheme="https://blog.zeng.cyou/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Docker快速搭建开发环境</title>
     <link href="https://blog.zeng.cyou/posts/28831/"/>
     <id>https://blog.zeng.cyou/posts/28831/</id>
     <published>2024-09-02T14:11:39.000Z</published>
-    <updated>2024-09-04T12:40:18.036Z</updated>
+    <updated>2024-09-07T06:58:55.819Z</updated>
     
     
       
