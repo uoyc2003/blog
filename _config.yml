@@ -133,6 +133,9 @@ sitemap:
   tags: true
   categories: true
 
+# Google Analytics
+google_analytics_key: G-HXGG4B5FMB
+
 import:
   head_end:
     - <link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-webfont@1.1.0/lxgwwenkai-regular.css" />
