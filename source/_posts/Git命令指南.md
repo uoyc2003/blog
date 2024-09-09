@@ -5,7 +5,7 @@ tags:
   - 命令指南
 categories:
   - 编程笔记
-headimg: 'https://pic.zeng.cyou/wide/202409042025523.webp'
+headimg: https://pic.zeng.cyou/wide/202409042025523.webp
 abbrlink: 25456
 date: 2024-09-08 11:08:31
 ---
