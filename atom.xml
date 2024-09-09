@@ -6,7 +6,7 @@
   <link href="https://blog.zeng.cyou/atom.xml" rel="self"/>
   
   <link href="https://blog.zeng.cyou/"/>
-  <updated>2024-09-08T03:10:44.427Z</updated>
+  <updated>2024-09-09T14:45:45.144Z</updated>
   <id>https://blog.zeng.cyou/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo博客标题和表格同行情况解决</title>
+    <link href="https://blog.zeng.cyou/posts/32918/"/>
+    <id>https://blog.zeng.cyou/posts/32918/</id>
+    <published>2024-09-09T14:08:58.000Z</published>
+    <updated>2024-09-09T14:45:45.144Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="问题日志" scheme="https://blog.zeng.cyou/categories/%E9%97%AE%E9%A2%98%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.zeng.cyou/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Git命令指南</title>
     <link href="https://blog.zeng.cyou/posts/25456/"/>
     <id>https://blog.zeng.cyou/posts/25456/</id>
     <published>2024-09-08T03:08:31.000Z</published>
-    <updated>2024-09-08T03:10:44.427Z</updated>
+    <updated>2024-09-09T14:44:28.881Z</updated>
     
     
       

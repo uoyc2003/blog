@@ -5,8 +5,8 @@
   <meta name="Volantis" content="6.0.0-alpha.1">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  
-  <link rel="canonical" href="https://blog.zeng.cyou/about/"/>
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://blog.zeng.cyou/categories/问题日志/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,19 +33,17 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="天使24" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>关于 - 天使24</title>
+  <title>分类：问题日志 - 天使24</title>
   <meta name="keywords" content="技术分享,生活记录,Blog">
   <meta desc name="description" content="与你的日常，就是奇迹 - Cyou - 天使24">
   
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="https://blog.zeng.cyou/about/index.html">
+<meta property="og:title" content="天使24">
+<meta property="og:url" content="https://blog.zeng.cyou/categories/%E9%97%AE%E9%A2%98%E6%97%A5%E5%BF%97/index.html">
 <meta property="og:site_name" content="天使24">
-<meta property="og:description" content="2024毕业于湖南网络工程职业学院（苦逼袋装）在校期间无任何成就，纯纯傻卵二刺螈 技术栈：  前端：HTML&#x2F;CSS&#x2F;Java(Type)Script Vue   后端：Java Spring&#x2F;SpringBoot&#x2F;SpringCloud   数据库：MySQL&#x2F;Redis 服务器：Nginx 其他：Git&#x2F;Linux&#x2F;Dock">
+<meta property="og:description" content="与你的日常，就是奇迹">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2024-09-01T07:08:49.045Z">
-<meta property="article:modified_time" content="2024-09-01T06:43:41.166Z">
 <meta property="article:author" content="Cyou">
 <meta property="article:tag" content="技术分享,生活记录,Blog">
 <meta name="twitter:card" content="summary">
@@ -2248,6 +2246,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <ul class='switcher nav-list-h m-phone'>
         <li><a id="s-comment" class="fa-solid fa-comments fa-fw" target="_self" title="comment"></a></li>
         
+          <li><a id="s-toc" class="s-toc fa-solid fa-list fa-fw" target="_self" title="toc"></a></li>
+        
       </ul>
     </div>
 		<div class="nav-main">
@@ -2408,9 +2408,25 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-<div id="l_main" class=' no_sidebar'>
-  <article itemscope itemtype="https://schema.org.cn/Article" class="article post white-box reveal md shadow floatable blur article-type-docs" id="docs" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://blog.zeng.cyou/about/index.html">
+
+<div id="l_main" class=''>
+  
+    
+      
+  <section class="post-list">
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="https://schema.org.cn/Article" >
+  <link itemprop="mainEntityOfPage" href="https://blog.zeng.cyou/posts/32918/">
   <span hidden itemprop="publisher" itemscope itemtype="https://schema.org.cn/Organization">
     <meta itemprop="name" content="天使24">
   </span>
@@ -2419,94 +2435,283 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="与你的日常，就是奇迹">
   </span>
   
+  
+  
+    <div class='headimg-div'>
+      <a class='headimg-a' href="/posts/32918/">
+        <img itemprop="image" class='headimg' alt="Hexo博客标题和表格同行情况解决" src='https://pic.zeng.cyou/wide/202409042025524.webp'/>
+      </a>
+    </div>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/posts/32918/"  itemprop="url">
+        Hexo博客标题和表格同行情况解决
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        问题描述主题：Volantis
+在写文章的时候，如果h2/h3标题下没有其他内容，而是直接放一个表格上去的话，会出现下面这种情况。
+
+解决思路获取文章里所有的h2/h3标签，然后判断下一个元素是否是表格，如果是的话，就加一个p标签。
+在主题文件volantis/source/js/的目录下创建一个文件夹用于存放自定义的js文件。
+1234567891011let postBody = doc...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2024-09-09T22:08:58+08:00">2024-09-09</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E9%97%AE%E9%A2%98%E6%97%A5%E5%BF%97/">问题日志</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="https://schema.org.cn/Thing">
+              <a href="/categories/%E9%97%AE%E9%A2%98%E6%97%A5%E5%BF%97/" itemprop="url"><span itemprop="name">问题日志</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/posts/32918/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+    
+  </section>
+  
+    
+  
 
 
+    
   
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
+</div>
+<aside id='l_side' itemscope itemtype="https://schema.org.cn/WPSideBar">
   
-  <div class="article-meta" id="top">
+
+  
     
     
+      
+<section class="widget blogger desktop mobile ">
+  <div class='content'>
     
-      <h1 class="title" itemprop="name headline">
-        关于
-      </h1>
-      <div class='new-meta-box'>
+      
+        <a class='avatar flat-box rectangle' href='/about/'>
+          <img no-lazy src='https://pic.zeng.cyou/avatar/202409012308357.jpg'/>
+        </a>
+      
+    
+    
+      <div class='text'>
         
-        <!-- Custom Files topMeta begin-->
+          <h2>Cyou</h2>
         
-        <!-- Custom Files topMeta end-->
+        
+          <p>与你的日常，就是奇迹</p>
+
+        
+        
+      </div>
+    
+    
+      <div class="social-wrapper">
+        
+          
+            <a href="/atom.xml"
+              class="social fa-solid fa-rss flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://github.com/uoyc2003"
+              class="social fab fa-github flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="https://space.bilibili.com/2079872578"
+              class="social fab fa-bilibili flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
+          
+            <a href="mailto:cn.youc@gmail.com"
+              class="social fa-solid fa-envelope flat-btn"
+              target="_blank"
+              rel="external nofollow noopener noreferrer">
+              
+            </a>
+          
+        
       </div>
     
   </div>
+</section>
 
-
-  <div id="layoutHelper-page-plugins"></div>
-  <div id="post-body" itemprop="articleBody">
-    <p>2024毕业于湖南网络工程职业学院（苦逼袋装）<br>在校期间无任何成就，纯纯傻卵二刺螈</p>
-<p>技术栈：</p>
-<ul>
-<li>前端：HTML&#x2F;CSS&#x2F;Java(Type)Script<ul>
-<li>Vue</li>
-</ul>
-</li>
-<li>后端：Java<ul>
-<li>Spring&#x2F;SpringBoot&#x2F;SpringCloud</li>
-</ul>
-</li>
-<li>数据库：MySQL&#x2F;Redis</li>
-<li>服务器：Nginx</li>
-<li>其他：Git&#x2F;Linux&#x2F;Docker</li>
-</ul>
-
-  </div>
+    
   
+
   
     
-    <div class='footer'>
-       <!-- 参考资料、相关资料等 -->
+    
       
-       <!-- 相关文章 -->
+  
+  <section class="widget category desktop">
+    
+  <header>
+    
+      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/" href="/categories/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/"
+            active-action="action-categoriesE7BC96E7A88BE7AC94E8AEB0"
+            ><div class='name'>编程笔记</div><div class='badge'>(3)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/" href="/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"
+            active-action="action-categoriesE7BD91E7AB99E690ADE5BBBA"
+            ><div class='name'>网站搭建</div><div class='badge'>(1)</div></a></li>
+        
+          <li><a class="flat-box"
+            title="/categories/%E9%97%AE%E9%A2%98%E6%97%A5%E5%BF%97/" href="/categories/%E9%97%AE%E9%A2%98%E6%97%A5%E5%BF%97/"
+            active-action="action-categoriesE997AEE9A298E697A5E5BF97"
+            ><div class='name'>问题日志</div><div class='badge'>(1)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+
+    
+  
+
+  
+    
+    
       
-      <!-- 版权声明组件 -->
+  
+  <section class="widget tagcloud desktop mobile">
+    
+  <header>
+    
+      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/Docker/" style="font-size: 24px; color: #555">Docker</a> <a href="/tags/Git/" style="font-size: 14px; color: #999">Git</a> <a href="/tags/Hexo/" style="font-size: 24px; color: #555">Hexo</a> <a href="/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 14px; color: #999">云服务器</a> <a href="/tags/%E5%91%BD%E4%BB%A4%E6%8C%87%E5%8D%97/" style="font-size: 14px; color: #999">命令指南</a> <a href="/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/" style="font-size: 14px; color: #999">开发环境</a> <a href="/tags/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" style="font-size: 14px; color: #999">快速入门</a>
+    </div>
+  </section>
+
+
+    
+  
+
+  
+
+  
+    
+    
       
-      <!-- 打赏组件 -->
+<section class="widget desktop">
+  
+  <header>
+    
+      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
+    
+  </header>
+
+
+  <div class='content'>
+    <div class="webinfo">
+      
+        <div class="webinfo-item">
+          <div>文章数目：</div>
+          <div>5 篇</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>已运行时间：</div>
+          <div id="webinfo-runtime-count"></div>
+        </div>
+      
+
+
+      
+        <div class="webinfo-item">
+          <div>本站总字数：</div>
+          <div>9.4k 字</div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>本站访客数：</div>
+          <div>
+            <span id="busuanzi_value_site_uv">
+              <i class="fa-solid fa-fan fa-spin fa-fw" aria-hidden="true"></i>
+            </span> 
+            人
+          </div>
+        </div>
+        <div class="webinfo-item">
+          <div>本站总访问量：</div>
+          <div>
+            <span id="busuanzi_value_site_pv">
+              <i class="fa-solid fa-fan fa-spin fa-fw" aria-hidden="true"></i>
+            </span> 
+            次
+          </div>
+        </div>
+      
+
+      
+        <div class="webinfo-item">
+          <div>最后活动时间：</div>
+          <div id="last-update-show">2024-09-09 日</div>
+        </div>
       
     </div>
-  
-  
-    
-
-
-  <div class='article-meta' id="bottom">
-    <div class='new-meta-box'>
-      
-    </div>
-    <!-- Custom Files bottomMeta begin -->
-    
-    <!-- Custom Files bottomMeta end -->
   </div>
+</section>
 
-
-  
-  
-
-  
-  <!-- 文章推荐 -->
-  
-  
-  <!-- Custom Files postEnd begin-->
-  
-  <!-- Custom Files postEnd end-->
-</article>
-
-
-
-
-</div>
-<aside id='l_side' itemscope itemtype="https://schema.org.cn/WPSideBar">
+    
   
 
 
@@ -2518,7 +2723,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <!-- Custom Files side end -->
 </aside>
-
 
 
         </div>
@@ -3440,7 +3644,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"https://schema.org.cn","@type":"Organization","name":"天使24","url":"https://blog.zeng.cyou/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"https://schema.org.cn","@type":"Person","name":"Cyou","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.zeng.cyou/","sameAs":["https://github.com/volantis-x"],"description":"与你的日常，就是奇迹"},{"@context":"https://schema.org.cn","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://blog.zeng.cyou/","name":"天使24"}}]},{"@context":"https://schema.org.cn","@type":"WebSite","name":"天使24","url":"https://blog.zeng.cyou/","keywords":"技术分享,生活记录,Blog","description":"与你的日常，就是奇迹","author":{"@type":"Person","name":"Cyou","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.zeng.cyou/","description":"与你的日常，就是奇迹"},"publisher":{"@type":"Organization","name":"天使24","url":"https://blog.zeng.cyou/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://blog.zeng.cyou?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org.cn","@type":"BlogPosting","headline":"关于","description":"与你的日常，就是奇迹","inLanguage":["zh-CN","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.zeng.cyou/about/index.html"},"author":{"@type":"Person","name":"Cyou","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.zeng.cyou/"},"publisher":{"@type":"Organization","name":"天使24","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://blog.zeng.cyou/about/index.html","wordCount":0,"datePublished":"2024-09-01T07:08:49.045Z","dateModified":"2024-09-01T06:43:41.166Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"https://schema.org.cn","@type":"Organization","name":"天使24","url":"https://blog.zeng.cyou/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"https://schema.org.cn","@type":"Person","name":"Cyou","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.zeng.cyou/","sameAs":["https://github.com/volantis-x"],"description":"与你的日常，就是奇迹"},{"@context":"https://schema.org.cn","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://blog.zeng.cyou/","name":"天使24"}},{"@type":"ListItem","position":2,"item":{"@id":"https://blog.zeng.cyou/categories/问题日志/","name":"问题日志"}}]},{"@context":"https://schema.org.cn","@type":"WebSite","name":"天使24","url":"https://blog.zeng.cyou/","keywords":"技术分享,生活记录,Blog","description":"与你的日常，就是奇迹","author":{"@type":"Person","name":"Cyou","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.zeng.cyou/","description":"与你的日常，就是奇迹"},"publisher":{"@type":"Organization","name":"天使24","url":"https://blog.zeng.cyou/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://blog.zeng.cyou?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org.cn","@type":"BlogPosting","description":"与你的日常，就是奇迹","inLanguage":["zh-CN","default"],"mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Cyou","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://blog.zeng.cyou/"},"publisher":{"@type":"Organization","name":"天使24","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
