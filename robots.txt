@@ -1,7 +1,2 @@
-User-agent: *
-Allow: /
-
-Disallow: /js/
-Disallow: /css/
-
-Sitemap: http://blog.zeng.cyou/sitemap.xml
+User-Agent: *
+Allow: /sitemap.xml
