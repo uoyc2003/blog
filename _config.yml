@@ -126,12 +126,9 @@ feed:
 
 # SiteMap
 sitemap:
-  path:
-    - sitemap.xml
-    - sitemap.txt
-  rel: false
-  tags: true
-  categories: true
+    path: sitemap.xml
+    tag: false
+    category: false
 
 # Google Analytics
 google_analytics_key: G-HXGG4B5FMB
