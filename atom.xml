@@ -6,7 +6,7 @@
   <link href="https://blog.zeng.cyou/atom.xml" rel="self"/>
   
   <link href="https://blog.zeng.cyou/"/>
-  <updated>2024-09-11T13:22:18.965Z</updated>
+  <updated>2024-09-21T00:49:04.286Z</updated>
   <id>https://blog.zeng.cyou/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring Boot统一封装返回结果和异常处理</title>
+    <link href="https://blog.zeng.cyou/posts/36990/"/>
+    <id>https://blog.zeng.cyou/posts/36990/</id>
+    <published>2024-09-21T00:41:32.000Z</published>
+    <updated>2024-09-21T00:49:04.286Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;枚举类&quot;&gt;&lt;a href=&quot;#枚举类&quot; class=&quot;headerlink&quot; title=&quot;枚举类&quot;&gt;&lt;/a&gt;枚举类&lt;/h2&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="编程笔记" scheme="https://blog.zeng.cyou/categories/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="https://blog.zeng.cyou/tags/Java/"/>
+    
+    <category term="Spring Boot" scheme="https://blog.zeng.cyou/tags/Spring-Boot/"/>
+    
+  </entry>
   
   <entry>
     <title>MyBatis拦截器自动填充字段</title>
